@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+    <meta name="viewport" content="width= width-device, width-scale=1">
+    <link rel="stylesheet" type="text/css" href="tcl3.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="navb">
+        <nav class="navbar navbar-expand-sm fixed-top">
+            
+            <div class="sign">
+                <span class="fa fa-sign-in"></span>
+                <button > sign </button>
+                
+            </div>
+            <a class="navbar-brand"><img src="logodogpng.png" class="rounded-circle" height="60" width="60" alt="logo"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav">
+                <span>HOME</span>
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">link 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">link 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">link 3</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">link 4</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        
+    </section>
+    
+    <!---- addsign-------->
+    
+    <section id="addsign">
+        <div class="container-sm bgimg">
+            <h2>hoan tat <br>cac thong tin lien quan</h2>
+            <p>tat ca nhung gi duoi day la de bao ve ban va quyen loi cua ban</p>
+            <div class="formm">
+                <form >
+                    <div class="form-group">
+                        <label for="cmt">so cmt 
+                        </label>
+                        <input type="text" name="cmt" required id="cmt" class="form-control">
+                        <input type="file" class="form-control-file" required >
+                    </div>
+                    <div class="form-group">
+                        gioi tinh<br>
+                        <label for="nam" >nam</label>
+                        <input type="radio" name="nam" id="nam"  class="custom-radio"  value="gt">
+                        <label for="nu" >nu</label>
+                        <input type="radio" name="nam"  id="nu" value="gt" class="custom-radio">
+                    </div>
+                    <div class="form-group">
+                         <label for="stk">tknh</label>
+                         <input type="text" name="stk" required id="stk" class="form-control" >
+                      <label for="sel"> ten ngan hang
+                           <select id="sel" class="custom-select-sm">
+                               <option selected disabled>choose</option>
+                                <option value="Agribank">Agribank</option>
+                                <option value="Sacombank">Sacombank</option>
+                                <option value="Vietinbank ">Vietinbank </option>
+                                <option value="Vietcombank ">Vietcombank </option>
+                                <option value="Techcombank ">Techcombank </option>
+                                <option value="VPbank  ">VPbank  </option>
+                                <option value="BIDB"> BIDB</option>
+                                <option value="TPB"> TPB</option>
+                                <option value="SHB "> SHB </option>
+                                <option value="MBank ">MBank  </option>
+                           </select>
+                             <input type="text" placeholder="khac">
+                         </label>
+                    </div>
+                    <div class="form-group">
+                        <p class="dc">dia chi</p>
+                        <label for="tinh">tinh ....... 
+                        </label>
+                        <input type="text" name="tinh" required id="tinh" ><br>
+
+                        <label for="quan">quan ..... 
+                        </label>
+                        <input type="text" name="quan" required id="quan" ><br>
+
+                        <label for="phuong">phuong 
+                        </label>
+                        <input type="text" name="phuong" required id="phuong" >
+                                            </div>
+                    <div class="form-group">
+                        <label for="choohn"> cho o hien nay
+                            <input type="text" name="choohn" id="choohn" required class="form-control">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="acn">acn</label>
+                        <input type="file" class="custom-file" id="acn" required name="acn">
+                        <label for="acnngh">acn nh</label>
+                        <input type="file" class="custom-file" id="acnngh" required name="acnngh">
+                    </div>
+                    
+    <!--------nguoi than----------->
+                    
+                    <div><h6>nguoi than</h6></div>
+                    <div class="form-group">
+                        <label for="tennt">ten </label>
+                        <input id="tennt" type="text" name="tennt" required class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="sdtnt">sdtnt </label>
+                        <input id="sdtnt" type="tel" name="sdtnt" required class="form-control">
+                    </div>
+
+    <!-------mon hoc---------->
+                    
+                       
+                    <div>
+                        <div class="form-group btn1"></div>
+                        <button type="submit" class="btn btn-danger">gui</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!--- giaithishc--->
+    
+    <section id="explain">
+        <div class="container-sm">
+            <h3>giải thích</h3>
+            <p>đây là những giải thích về số buổi và việc học ra sao</p>
+            <p>đây là những giải thích về số buổi và việc học ra sao</p>
+            <p>đây là những giải thích về số buổi và việc học ra sao</p>
+        </div>
+    </section>
+    
+    
+    <!---foooter----->
+    
+    <section id="footer">
+        <div class="footer">
+            <div class="container-md ft1">
+                <div class="row">
+                    <div>
+                        <h2>thong tin</h2>
+                    </div>
+                <div class="col">
+                    <p> cong ty tnhh tclearn </p>
+                    <p>dia chi: 47 ngoc ha ba dinh ha noi</p>
+                    <p>ma so doanh nghiep:280801</p>
+                </div>
+                <div class="col">
+                    <p>dai dien phap ly: nguyen van a</p>
+                    <p>chuc vu:giam doc dieu hanh</p>
+                </div>
+                </div>
+                <h6>thank you and go with our</h6>
+                <p> <a href="#"><i class="fa fa-facebook-official"> nhom fb</i></a>
+                    <a href="#"><i class="fa fa-instagram"> instargram</i></a>
+                </p>
+                <p> <a href="#"><i class="fa fa-facebook-square"> fanpage</i></a></p>
+                <p>cam on nha tai tro</p>
+                <p><a href="#">link dang ky danh nghiep</a></p>
+            </div>
+            <div class="copy">
+                <h5> dieu khoan va chinh sach bao mat</h5>
+                <p > <i class="fa-copyright fa"></i></p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

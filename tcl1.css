@@ -1,0 +1,294 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.bgimg {
+    background-image: url("Screenshot_6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 559px;
+    color: white;
+}
+
+.navbar {
+    background: #447;
+    color: white;
+}
+
+.navbar-brand {
+    left: 8%;
+    position: relative;
+}
+
+.navbar .sign button {
+    border-radius: 12px;
+    padding: 7px;
+    color: #0B033D;
+}
+
+.navbar .sign button:hover {
+    background: red;
+    color: white;
+    font-weight: 500;
+    outline: none;
+    border: none;
+}
+
+.navbar-nav li {
+    padding: 0 20px;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-weight: 600;
+    transition: color 1s;
+    float: right;
+    text-align: left;
+}
+
+.navbar-nav li a:hover {
+    color: black !important;
+    top: -3px !important;
+    position: relative;
+}
+
+.fa-bars:hover {
+    color: black !important;
+    top: -3px !important;
+    position: relative;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+#navb {
+    position: relative;
+}
+
+
+/*---banner--------*/
+
+#banner {
+    position: relative;
+    top: 100px;
+}
+
+#banner h1 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#banner h1::after {
+    content: '';
+    border-bottom: 3px solid pink;
+    background: pink;
+    height: 5px;
+    width: 200px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner h1::before {
+    content: '';
+    border-bottom: 3px solid pink;
+    background: pink;
+    height: 5px;
+    width: 100px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(90px)
+}
+
+#banner p {
+    padding-top: 40px;
+    text-align: right;
+}
+
+
+/*---------MAIN----------*/
+
+#main {
+    position: relative;
+    top: 160px;
+}
+
+.tieude {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #B2B3E1;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+#main ul li {
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+}
+
+.phuhoa1 {
+    width: 300px;
+    height: 10px;
+    background-color: #5E2FD3;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+#main .col-sm-4 ul {
+    box-shadow: 1px 1px 10px darkblue, 2px 5px 10px red;
+    border-radius: 20px;
+}
+
+#main .col-sm-4 {
+    padding-top: 30px;
+}
+
+
+/*---dang ki---------*/
+
+#sign {
+    position: relative;
+    top: 250px;
+}
+
+.form-group:first-child {
+    padding-top: 50px;
+}
+
+.form-group {
+    padding: 0px;
+    color: black;
+}
+
+.btn-dark {
+    margin-left: 27px;
+}
+
+form {
+    border: 2px solid #444;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#loicamon {
+    position: relative;
+    top: 300px;
+}
+
+
+/*------footer------*/
+
+#footer {
+    position: relative;
+    top: 400px;
+    color: black;
+}
+
+.footer {
+    background-color: #92AEB9;
+    padding: 20px;
+}
+
+.ft1 p {
+    line-height: 10px;
+}
+
+.copy {
+    background-color: #222;
+    color: white;
+}
+
+.fa-copyright {
+    margin-left: 50%;
+}
+
+@media only screen and ( min-width: 900px) {
+    .navbar-brand {
+        left: 38%;
+        position: relative;
+    }
+    #banner h1 {
+        font-size: 40px;
+    }
+    #banner h1::before {
+        width: 200px;
+        transform: translateY(80px)
+    }
+    #banner h1::after {
+        width: 400px;
+        margin-right: auto;
+        transform: translateY(15px)
+    }
+    #banner p {
+        padding-top: 80px;
+        width: 300px;
+        margin: auto;
+        color: wheat;
+    }
+    #main {
+        top: 310px;
+        color: black;
+    }
+    .tieude {
+        padding: 40px 0 30px 10px;
+    }
+    #main ul li {
+        font-size: 18px;
+        font-style: italic;
+    }
+    #main .col-sm-12 ul {
+        width: 500px;
+        margin: auto;
+        box-shadow: 1px 1px 10px darkblue, 2px 5px 10px red;
+        border-radius: 10px;
+    }
+    .phuhoa1 {
+        width: 600px;
+        height: 15px;
+    }
+    #sign {
+        top: 500px;
+    }
+    form {
+        width: 700px;
+        margin: auto;
+    }
+    .btn-dark {
+        margin: 30px auto;
+        transform: translateX(210%)
+    }
+    .form-group input {
+        width: 400px;
+        margin: auto;
+        border-color: #0C0B82
+    }
+    .form-group label {
+        margin-left: 100px
+    }
+    .row2 {
+        margin-top: 60px
+    }
+    #loicamon {
+        position: relative;
+        top: 600px;
+    }
+    /*------footer------*/
+    #footer {
+        position: relative;
+        top: 700px;
+        color: black;
+    }
+    #footer .phuhoa1 {
+        display: none;
+    }
+}

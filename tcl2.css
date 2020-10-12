@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    position: relative;
+    background-color: wheat;
+}
+.navbar{
+    background: #447;
+    color: white;
+}
+.navbar-brand{
+    left: 8%;
+    position: relative;
+}
+.navbar .sign button{
+    border-radius: 12px;
+    padding: 7px;
+    color: #0B033D;
+}
+.navbar .sign button:hover{
+    background: red;
+    color: white;
+    font-weight: 500;
+    outline: none;
+    border: none;
+}
+.navbar-nav li{
+    padding:0 20px;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    transition: color 1s;
+    float: right;
+    text-align: left;
+}
+.navbar-nav li a:hover{
+    color: black !important;
+    top:-3px !important;
+    position: relative;
+}
+.fa-bars:hover{
+    color: black !important;
+    top:-3px !important;
+    position: relative;
+}
+.navbar-toggler{
+    color: white;
+}
+
+    
+/*-----addsign---------*/
+
+#addsign{
+    background-color: wheat;
+}
+.bgimg{
+   padding-top: 100px;
+}
+.bgimg h2{
+    font-size: 30px;
+    width: 350px;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 3px 3px 1px #999;
+}
+.bgimg p{
+    padding: 20px;
+}
+#addsign form{
+    padding-top: 50px
+}
+.form-group{
+    border-bottom: 2px solid #D51114;
+    padding: 10px 30px;
+    background-color: #999;
+}
+h6{
+    text-align: center;
+}
+.btn{
+    padding: 5px;
+    margin:13px 40%;
+    border-radius: 5px;
+}
+
+
+/*-------footer-----*/
+
+#footer{
+    position: relative;
+    top: 400px;
+    color: black;
+}
+.footer{
+    background-color: #92AEB9;
+    padding:20px;
+}
+.ft1 p{
+    line-height: 10px;
+}
+.copy{
+    background-color: #222;
+    color: white;
+}
+.fa-copyright{
+    margin-left: 50%;
+}
+
+
+/*----giai thích-------*/
+
+#explain h3{
+    text-align: center;
+    padding: 50px 0;
+}
+#explain{
+    background-color: #D8D1D2
+}
+#explain p:last-child{
+    padding: 0px 0 50px;
+    
+}
+#explain p{
+    padding: 5px;
+}
+
+
+
+
+
+
+@media only screen and ( min-width : 900px){
+    .navbar-brand{
+    left: 38%;
+    position: relative;
+    }
+    .bgimg h2{
+        margin: auto;
+    }
+    .btn{
+    padding: 5px;
+    margin:13px 45%;
+    border-radius: 5px;
+}#footer{
+    position: relative;
+    top: 600px;
+    color: black;
+}
+    #footer .phuhoa1{
+        display: none;
+    }
+    .form-group{
+        width: 700px;
+        margin: auto;
+    }
+}
+
+
+
